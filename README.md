@@ -17,3 +17,6 @@ Please modify the `environment.yml` file accordingly (e.g., `file path` and `con
 python calculate_EER.py --score-file score_files/se_resnet34_w2v2_eval_scores.txt \
                         --protocol-file protocol_files/PartialSpoof.LA.cm.eval.trl.txt
 ```
+
+# CREDITS
+Code to calculate EER was adapted from the [ASVSpoof challenge](https://github.com/asvspoof-challenge/2021)
